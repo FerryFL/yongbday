@@ -15,8 +15,8 @@
 	}
 
 	.bg {
-		width: 2000px;
-		height: 1000px;
+		width: 2300px;
+		height: 1600px;
 		top: 0;
 		left: 0;
 		bottom: 0;
@@ -26,6 +26,7 @@
 		z-index: -1;
 		background-image: url(https://media.istockphoto.com/photos/birthday-celebratory-toast-with-string-lights-and-champagne-picture-id1298329918?b=1&k=20&m=1298329918&s=170667a&w=0&h=JGwktV6nxvsmKFsdW9JVoThOrVCUUJYol29AjbXy35I=);
 		filter: brightness(0.4) blur(7px);
+		transform: translate(-200px, -50px);
 
 	}
 
@@ -57,13 +58,45 @@
 		width: 100%;
 	}
 
+	blockquote {
+		font-family: georgia;
+		font-size: 20px;
+		font-style: italic;
+		color: white;
+		margin-top: 30px;
+		line-height: 1.4em;
+		position: relative;
+	}
+
+	blockquote::before, blockquote::after {
+		content: open-quote;
+		font-size: 60px;
+		color: #d0d0d0;
+		line-height: 0;
+		top: 20px;
+		position: relative;
+
+	}
+
+	blockquote::after {
+		content: close-quote;
+	}
 
 
 	.kanan p {
-	color: white;
+	color: 	#e5e5e5;
 	font-family: 'Roboto Slab', serif;
 	font-size: 20px;
 	}
+
+	.kanan h4 {
+	color: 	#e5e5e5;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	text-align: center;
+	}
+
+
 
 	.kanan h1 {
 		color: white;
@@ -90,6 +123,7 @@
 		.kanan p {
 			width: 95%;
 			font-size: 17px ;
+
 		}
 
 		.kanan h1 {
@@ -114,14 +148,18 @@
 	<div class="kanan">
 		<h1>Happy Birthday, Yong!</h1>
 		<p>Hello, Ma Bro!<br>
-I made this website to give my last present sblm kita lulus & jalanin kehidupan masing masing 
+I made this website to give my simple gift/present sblm kita lulus & jalanin kehidupan masing masing 
 <br><br>
 Pada Kesempatan kali ini, i would like to say thank u for all memories that you've given me. I wish that almighty blessed you with a good luck, happiness, good health, and success in every walk of your life. Wishing you a very happy birthday! 
 <br><br></p>
 
 <h1>The Best Quote For U</h1>
-<p>"I don’t have words to describe what I feel for you. Meeting you is the best thing that ever happened in my life."
-- Unknown -</p>
+
+<blockquote>
+I don’t have words to describe what I feel for you. Meeting you is the best thing that ever happened in my life.
+</blockquote>
+
+<h4>- Unknown -</h4>
 	</div>
 
 </div>
